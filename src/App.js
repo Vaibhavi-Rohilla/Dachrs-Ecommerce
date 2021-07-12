@@ -7,7 +7,7 @@ function App() {
     <div className='App'>
       <ErrorBoundary>
         <header className='App-header'>
-          <h2>Hello Dachrs e-commerce</h2>
+          <h2>Hello Dachrs e-commerce portal</h2>
           <Home />
         </header>
       </ErrorBoundary>
