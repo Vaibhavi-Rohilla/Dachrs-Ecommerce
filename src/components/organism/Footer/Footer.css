@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&family=Poppins&display=swap");
+
+.Footer {
+  display: flex;
+  align-self: center;
+  justify-content: space-around;
+  align-content: center;
+  flex-wrap: nowrap;
+  background-color: white;
+  font-family: "Lato", sans-serif;
+}
+
+
+.FooterInfo{
+    display: flex;
+    background-color: black;
+    color: white;
+    padding-top:10px;
+    justify-content: space-evenly;
+}
+.FooterInfo input{
+    width: 400px;
+    height:3px;
+    margin-top: 8px;
+    padding:20px;
+    background-color: #707070;
+   
+}
+::placeholder{
+    color: #dddcdc;
+}
+.FooterInfo input:focus{
+    color:#dddcdc;
+    text-decoration: none;
+}
+
+.FooterInfo h1{
+    font-size: 18px;
+    padding-top: 20px;
+    margin: 0;
+    height: 40px;
+    font-family: lato;
+}
+.FooterInfo span{
+    color: #bbb8b8;
+}
+.FooterTable {
+  font-size: 16px;
+  background-color: rgb(240, 239, 239);
+
+}
+
+.FooterTable table {
+  border-collapse: separate;
+  border-spacing: 25px 20px;
+  margin-left: 120px;
+ 
+}
+.FooterTable a {
+  cursor: pointer;
+  text-decoration: none;
+  color:#bbb8b8;
+}
+.FooterTable a:hover {
+  text-decoration: underline;
+}
+.FooterTable table th {
+  font-family: "Poppins", sans-serif;
+  color: black;
+  font-size: 16px;
+  font-weight: bold;
+  width: 400px !important;
+ 
+  text-align: left;
+}
+.FooterTable li {
+  white-space: nowrap;
+  display: inline-block;
+  padding: 5px;
+  background-color: #707070;
+  border-radius: 360px;
+  margin-left: 30px;
+  height: 25px;
+  width: 32px;
+  text-align: center;
+ 
+}
+.FooterInfo li a{
+  color:whitesmoke;
+}
+
+.FooterTable table td {
+  
+  color: #bbb8b8;
+  font-size: 14px;
+  width: 60px;
+}
