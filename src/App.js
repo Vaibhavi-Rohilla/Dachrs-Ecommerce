@@ -4,7 +4,7 @@ import Home from './pages/Home/Home';
 
 function App() {
   return (
-    <div >
+    <div className="App-header">
       <ErrorBoundary>
         <header >
           <h2>Hello Dachrs e-commerce portal</h2>
