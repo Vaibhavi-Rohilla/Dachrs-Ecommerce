@@ -33,7 +33,6 @@ class filter extends Component {
   };
   selectAllCheckboxes = (isSelected) => {
     Object.keys(this.state.checkboxes).forEach((checkbox) => {
-      // BONUS: Can you explain why we pass updater function to setState instead of an object?
       this.setState((prevState) => ({
         checkboxes: {
           ...prevState.checkboxes,
@@ -67,14 +66,13 @@ class filter extends Component {
   render() {
     return (
       <div className="content">
-        <div>
-          {/* {products.map((data,key) => {
-        
+       <div>
+           {/* {products.map((data,key) => {
           return (
           <div key={key}>
-          {data.title}
+          <p>{data.title}</p>
           </div>)
-           })}   */}
+           })}     */}
           <div className="filterContainer">
             <p>Filters</p>
             <section className="filterSection">
