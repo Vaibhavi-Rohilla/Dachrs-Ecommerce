@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { products } from "./products";
 import Checkbox from "../../atoms/Checkbox";
-import "./filter.css";
+import "./filter.scss";
 
 const Brands = ["Nike", "Rebook", "Puma", "Wrogn", "Flying Machine"];
 const Color = ["White", "Green", "Blue", "Pink", "Black"];
